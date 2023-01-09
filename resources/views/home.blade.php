@@ -6,8 +6,8 @@
 
     <div class="row">
       @foreach ($movies as $movie)
-        <div class="col-4 mb-3">
-          <div class="card">
+        <div class=" card-group col-4 mb-3">
+          <div class="card text-bg-light border-dark">
             <div class="card-body">
               <h5 class="card-title">{{ $movie->title }}</h5>
               <p class="card-text">Data di uscita: {{ $movie->date }}</p>
