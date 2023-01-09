@@ -11,7 +11,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ $movie->title }}</h5>
               <p class="card-text">Data di uscita: {{ $movie->date }}</p>
-              <p class="card-text">Paese di origine: {{ $movie->nationality }}</p>
+              <p class="card-text">Titolo originale: {{ $movie->original_title }}</p>
             </div>
             <div class="card-footer">Voto medio: {{ $movie->vote }}</div>
           </div>
