@@ -20,3 +20,5 @@ Route::get('/chi-siamo', [PageController::class, 'about'])->name('about');
 
 Route::get('/contatti', [PageController::class, 'contacts'])->name('contacts');
 
+Route::get('/elenco-film', [PageController::class, 'movies'])->name('movies');
+
